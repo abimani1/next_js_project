@@ -1,0 +1,145 @@
+.container{
+    margin: 20px 0px 0px  20px;
+}
+.title{
+
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(142, 142, 142, 1);
+     
+}
+.variety{
+    font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color:rgba(66, 111, 239, 1);
+;
+}
+.drinks{
+font-size: 36px;
+font-weight: 500;
+color:  rgba(0, 0, 0, 1);
+;
+}
+.item{
+    display: flex;
+    flex-wrap: nowrap;
+} 
+.item >p{
+    margin: 0px 30px 0px 0px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+
+}
+.pop{
+    border-bottom: 2px solid rgba(84, 178, 38, 1);;
+}
+.categories_head{
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: nowrap;
+}
+.categories{
+    border: 2px solid black;
+    width: 392px;
+    height: 720px;
+    border-radius: 10px;
+}
+.category{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 15px 0px 15px 25px ;
+}
+.vector_category{
+    position:relative;
+    left: 185px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+}
+.categoryList{
+    color:  rgba(0, 0, 0, 1);
+    border-bottom: 2px solid black;
+    width: 392px;
+    height: 82px;
+    display: flex;
+}
+.fruits {
+   font-size: 24px;
+   font-weight: 500;
+   padding: 15px 0px 15px 25px ;
+}
+.fruits_veg{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fruit1{
+   font-size: 20px;
+   font-weight: 400;
+   padding: 0px 0px 15px 25px ;
+}
+.hori_line{
+    width:360px;
+    margin: 0px 10px 0px 10px;
+}   
+.vector_fruits{
+    left: 95px;
+    top: 27px;
+}
+ .vector_Dairy{
+    left: 150px;
+    top: 27px;
+}
+.vector_Staples{
+    left: 235px;
+    top: 27px;
+}
+
+.vector_Beverages{
+    left: 195px;
+    top: 27px;
+}
+.vector_personal{
+    left: 155px;
+    top: 27px;
+}
+.vector_home{
+    left: 184px;
+    top: 27px;
+} 
+.vector_fruits,.vector_Dairy,.vector_Staples,.vector_Beverages,.vector_personal,.vector_home{
+    width: 20px;
+    height: 10px;
+    position:relative;
+}
+.varities{
+    width: 1216px;
+    height: 1170px;
+    margin: 0px 25px 0px 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.varieties.mango{
+    width: 392px;
+    height: 560px;
+    border-radius: 20px 0px 0px 0px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.25);
+}
+.mango{
+    width: 392px;
+    height: 268px;
+    border-radius: 10px 0px 0px 0px;
+}
+.mango_contenet{
+    font-size: 32px;
+    font-weight: 500;
+}
+.price{
+    width: 9px;
+    height: 15px;
+    background: rgba(84, 178, 38, 1);
+
+}
